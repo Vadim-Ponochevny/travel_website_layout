@@ -1,0 +1,74 @@
+.hero {
+  width: 100%;
+  padding: 124px 0;
+  background: url("../../assets/hero background image.svg") center/cover no-repeat;
+}
+
+.hero__container {
+  display: flex;
+}
+
+.hero__content {
+  width: 505px;
+}
+
+.hero__title {
+  font-family: var(--font-heading);
+  font-size: 70px;
+  line-height: 84px;
+  margin-bottom: 12px;
+  letter-spacing: -1px;
+}
+
+.highlight {
+  color: var(--color-primary);
+}
+
+.hero__subtitle {
+  font-size: 22px;
+  line-height: 36px;
+  margin-bottom: 34px;
+}
+
+.hero__buttons {
+  display: flex;
+  gap: 20px;
+}
+
+/* --------- BUTTONS --------- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 300;
+  transition: 0.3s ease;
+}
+
+.btn--share {
+  background: var(--color-primary);
+  color: #fff;
+  padding: 12px 22px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn-watch {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-watch__icon {
+  width: 36px;
+  height: 36px;
+  background: url("../../assets/button_watch.svg") center/cover no-repeat;
+}
+
+.btn-watch__text {
+  font-size: 16px;
+  color: var(--color-text);
+}

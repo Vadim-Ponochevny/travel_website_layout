@@ -1,0 +1,36 @@
+.header {
+  padding: 13px 0;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.header__nav-group {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+
+.nav__list {
+  display: flex;
+  gap: 55px;
+}
+
+.nav__link {
+  font-size: 16px;
+  color: var(--color-nav);
+}
+
+.header__actions {
+  display: flex;
+  gap: 18px;
+}
