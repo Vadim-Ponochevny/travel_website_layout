@@ -1,0 +1,49 @@
+.countries__block {
+  padding-top: 24px;
+  padding-bottom: 86px;
+}
+
+.countries__block__text {
+  text-align: center; 
+}
+
+.countries__block__text h2 {
+  padding-top: 8px;
+}
+
+.countries__block__cards {
+  padding-top: 64px;
+  display: flex;    
+  justify-content: space-between; 
+  gap: 16px;               
+}
+
+.countries__block__cards h3 {
+    font-family: var(--font-heading);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+} 
+
+.countries__block__cards > div {
+  flex: 1;                    
+  text-align: center;
+  background: #fff;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.countries__block__cards > div:hover {
+  transform: translateY(-5px);
+}
+
+.countries__block__cards img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.countries__block__cards a {
+  color: var(--color-primary);
+  font-weight: 500;
+}

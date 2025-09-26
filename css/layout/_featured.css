@@ -1,0 +1,43 @@
+.featured__block {
+  padding: 107px 0;
+}
+
+.featured__container {
+  display: flex;
+  gap: 60px;
+}
+
+.featured__text {
+  padding-top: 30px;
+  max-width: 520px;
+}
+
+.featured__block p {
+  padding-top: 8px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+}
+
+.featured__block h2 {
+  padding-top: 8px;
+}
+
+.btn-watch__icon__featured {
+  display: inline-block; 
+  width: 36px;
+  height: 36px;
+  background: url("../../assets/watch_now.svg") center/cover no-repeat;
+}
+
+.featured__button {
+  padding-top: 24px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-watch__text {
+  font-size: 16px;
+  color: var(--color-primary);
+}
