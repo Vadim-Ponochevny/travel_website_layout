@@ -103,8 +103,46 @@
     </section>
 
     <section class="form">
+      <div class="container form__container">
+        <div class="form__content">
 
+          <div class="form__text">
+            <h4>LET’S BUILD A COMMUNITY</h4>
+            <h2>Join our next destination</h2>
+          </div>
+
+          <div class="form__box">
+            <h3>Share your travels</h3>
+            <p>Suggest a new travel destination that you want to see and we will feature it in our blog.</p>
+
+            <form class="form__inner">
+
+              <input type="text" name="destination_name" placeholder="Destination name" class="form__input">
+
+              <select name="country" class="form__select">
+                <option class="filed" value="" disabled selected>Country of Destination</option>
+                <option value="ru">Russia</option>
+                <option value="ua">Ukraine</option>
+                <option value="by">Belarus</option>
+              </select>
+
+              <input type="text" name="name" placeholder="Your name" class="form__input">
+
+              <select name="category" class="form__select" >
+                <option value="" disabled selected hidden>Shooting category</option>
+                <option value="city">City</option>
+                <option value="people">People</option>
+              </select>
+
+              <textarea name="message" required placeholder="Describe what kind of photos you want to focus on" class="form__textarea"></textarea>
+
+              <button type="submit" class="btn btn--submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
     </section>
+
 
 
   </main>
