@@ -1,0 +1,94 @@
+.stories {
+  width: 100%;
+  padding: 83px 0;
+}
+
+.stories__container{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.stories__posts {
+  display: flex;
+  margin-top: 30px;
+  gap: 30px;
+}
+
+.stories__text {
+  text-align: center;
+}
+
+.stories__text h2 {
+    margin-top: 15px;
+}
+
+.main__post {
+  max-width: 560px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main__post img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.main__post__text p {
+  line-height: 26px;
+  margin-top: 5px;
+}
+
+.content_under_image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  gap: 20px;
+  margin-top: 16px;
+  margin-left: 21px;
+  margin-right: 21px;
+}
+
+.btn-watch__icon__stories {
+  display: inline-block; 
+  width: 48px;
+  height: 48px;
+  background: url("../../assets/watch_now.svg") center/cover no-repeat;
+  flex-shrink: 0;
+}
+
+.side__posts {
+  margin-top: 8px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+}
+
+.side__post {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.side__post img {
+  width: 200px;
+  height: auto;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.side__post__text {
+  padding-top: 8px;
+  margin-left: 10px;
+  padding-right: 30px;
+}
+
+.side__post__text p {
+  margin-top: 10px;
+  line-height: 26px;
+}
+

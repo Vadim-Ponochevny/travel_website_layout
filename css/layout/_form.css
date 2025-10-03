@@ -65,7 +65,16 @@
   color: gray; 
 }
 
+.form__select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 
+  background-image: url("../../assets/arrow-down.svg");
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+  background-size: 12px; 
+}
 
 .form__input:focus,
 .form__select:focus,
@@ -90,7 +99,7 @@
   cursor: pointer;
   transition: opacity 0.3s ease;
   width: 222px;
-  margin: 0 auto;
+  margin-top: 17px;
 }
 
 .btn--submit:hover {

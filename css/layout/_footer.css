@@ -1,0 +1,30 @@
+.footer {
+  padding: 32px 0; 
+}
+
+.footer__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__copy {
+  font-size: 14px;
+  color: #939EB4; 
+}
+
+.footer__nav-list {
+  display: flex;
+  gap: 40px; 
+}
+
+.footer__link {
+  font-size: 14px; 
+  color: #939EB4; 
+  transition: color 0.3s ease;
+  line-height: 1;
+}
+
+.footer__link:hover {
+  color: #666; 
+}
